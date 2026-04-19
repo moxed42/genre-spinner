@@ -89,7 +89,7 @@
       </div>
       <div class="actions">
         <button class="btn" id="themeToggle">Toggle theme</button>
-        <button class="btn" id="refreshBtn">Refresh examples</button>
+        <button class="btn" id="testBtn">Test it out</button><button class="btn" id="refreshBtn">Refresh examples</button>
         <button class="btn primary" id="spinBtn">Spin genre</button>
       </div>
     </header>
@@ -104,7 +104,7 @@
           <div class="reel-center"></div>
           <div class="reel" id="reel"></div>
         </div>
-        <div class="status" id="statusBox">Ready. For live summaries and chatbot answers, add your Perplexity API key in Settings. Without a key, the app uses a local fallback summary/suggestion mode.</div>
+        <div class="status" id="statusBox">Ready. Use Spin genre for your real daily draw, or Test it out for a no-stakes spin that does not count toward tracking. Add your Perplexity API key in Settings for live summaries and chat; without a key, the app uses local fallback suggestions.</div>
 
         <article class="result-card">
           <div class="eyebrow">Selected genre</div>
@@ -158,8 +158,8 @@
         </div>
         <div class="list-card">
           <h3>Settings</h3>
-          <label><div class="small">Perplexity API key (optional)</div><input type="text" id="pplxKey" placeholder="pplx-..." /></label>
-          <div class="small" style="margin-top:10px;">If you add a key, the app can request live one-paragraph summaries and discovery suggestions through Perplexity’s chat completions API, which is OpenAI-format compatible. [web:83][web:85][web:94]</div>
+          <label><div class="small">Perplexity API key (optional)</div><input type="text" id="pplxKey" placeholder="pplx-... (saved in this browser)" /></label>
+          <div class="small" style="margin-top:10px;">If you add a key here, the app saves it in this browser so you should not have to re-enter it each time on the same device/browser. For safer long-term deployment, move the key to a small server-side proxy instead of leaving it in a public page.</div>
         </div>
       </aside>
     </main>
@@ -187,11 +187,11 @@
         </div>
         <div class="two-col">
           <label><div class="small">Search</div><input type="text" id="searchBox" placeholder="Search genre or category" /></label>
-          <label><div class="small">Top category</div><select id="topFilter"><option value="">All</option></select></label>
+          <label><div class="small">Family</div><select id="topFilter"><option value="">All</option></select></label>
         </div>
       </div>
       <table>
-        <thead><tr><th>Genre</th><th>Parent</th><th>Top category</th><th>Listened date</th></tr></thead>
+        <thead><tr><th>Row</th><th>Genre</th><th>Parent</th><th>Family</th><th>Listened date</th></tr></thead>
         <tbody id="genreTable"></tbody>
       </table>
     </section>
@@ -400,6 +400,7 @@ function renderTable(){
     return (!q || hay.includes(q)) && (!top || g.TopCategory === top);
   }).slice(0, 400);
   genreTable.innerHTML = rows.map(g => `<tr>
+    <td>${escapeHtml(g.OriginalRow || '—')}</td>
     <td><button class="btn" style="padding:.45rem .75rem; border-radius:12px;" data-genre="${escapeAttr(g.Genre)}">${escapeHtml(g.Genre)}</button></td>
     <td>${escapeHtml(g.ParentCategory || '—')}</td>
     <td>${escapeHtml(g.TopCategory || '—')}</td>
@@ -412,16 +413,18 @@ function renderTable(){
   }));
 }
 
-function spinGenre(){
+function spinGenre(isTest=false){
   const all = appData.genres;
   const genre = all[Math.floor(Math.random() * all.length)];
   const offset = 1800 + Math.floor(Math.random() * 600);
   reel.style.transform = `translateX(-${offset}px)`;
   setTimeout(() => setGenre(genre), 2100);
+  setStatus(isTest ? 'Test spin only — this does not count toward your real tracking.' : 'Daily spin loaded.');
   setTimeout(() => { reel.style.transition = 'none'; reel.style.transform = 'translateX(-800px)'; reel.offsetHeight; reel.style.transition = 'transform 2200ms cubic-bezier(.15,.86,.21,1)'; }, 2250);
 }
 
-document.getElementById('spinBtn').addEventListener('click', spinGenre);
+document.getElementById('spinBtn').addEventListener('click', () => spinGenre(false));
+document.getElementById('testBtn').addEventListener('click', () => spinGenre(true));
 document.getElementById('refreshBtn').addEventListener('click', ()=> currentGenre && setGenre(currentGenre, true));
 searchBox.addEventListener('input', renderTable);
 topFilter.addEventListener('change', renderTable);
