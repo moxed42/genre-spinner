@@ -13,237 +13,290 @@
       --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
       --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
       --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
-      --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem; --space-16: 4rem;
-      --color-bg:#f7f6f2; --color-surface:#f9f8f5; --color-surface-2:#fbfbf9; --color-surface-offset:#f3f0ec; --color-border:#d4d1ca; --color-text:#28251d; --color-text-muted:#6e6a62; --color-primary:#01696f; --color-primary-hover:#0c4e54; --color-primary-highlight:#cedcd8; --radius-md:0.5rem; --radius-lg:0.75rem; --radius-xl:1rem; --shadow-md:0 4px 12px rgba(40,37,29,.08); --shadow-lg:0 12px 32px rgba(40,37,29,.12); --transition:180ms cubic-bezier(0.16,1,0.3,1); --font-body:'Satoshi', sans-serif; --font-display:'Zodiak', serif;
+      --space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;--space-12:3rem;--space-16:4rem;
+      --color-bg:#f7f6f2;--color-surface:#f9f8f5;--color-surface-2:#fbfbf9;--color-surface-offset:#f3f0ec;--color-border:#d4d1ca;--color-text:#28251d;--color-text-muted:#6e6a62;--color-primary:#01696f;--color-primary-hover:#0c4e54;--color-primary-highlight:#cedcd8;
+      --radius-md:.5rem;--radius-lg:.75rem;--shadow-md:0 4px 12px rgba(40,37,29,.08);--shadow-lg:0 12px 32px rgba(40,37,29,.12);--transition:180ms cubic-bezier(0.16,1,0.3,1);
+      --font-body:'Satoshi',sans-serif;--font-display:'Zodiak',serif;
     }
-    [data-theme="dark"] { --color-bg:#171614; --color-surface:#1c1b19; --color-surface-2:#201f1d; --color-surface-offset:#22211f; --color-border:#393836; --color-text:#e2dfd9; --color-text-muted:#a8a39a; --color-primary:#4f98a3; --color-primary-hover:#76b7c0; --color-primary-highlight:#313b3b; --shadow-md:0 4px 12px rgba(0,0,0,.28); --shadow-lg:0 12px 32px rgba(0,0,0,.4); }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:var(--font-body); background:var(--color-bg); color:var(--color-text); line-height:1.55; }
-    button, input, select, textarea { font:inherit; }
-    .shell { max-width:1320px; margin:0 auto; padding:var(--space-6); }
-    .topbar { display:flex; justify-content:space-between; gap:var(--space-4); align-items:flex-start; margin-bottom:var(--space-8); }
-    .brand { display:flex; align-items:center; gap:var(--space-3); }
-    .logo { width:42px; height:42px; border-radius:12px; background:linear-gradient(135deg,var(--color-primary),transparent), var(--color-surface-offset); border:1px solid var(--color-border); position:relative; box-shadow:var(--shadow-md); }
-    .logo:before,.logo:after { content:''; position:absolute; inset:10px; border-top:2px solid currentColor; border-bottom:2px solid currentColor; color:var(--color-text); opacity:.8; }
-    h1,h2,h3 { margin:0; line-height:1.1; }
-    .title { font-family:var(--font-display); font-size:var(--text-xl); }
-    .subtitle { color:var(--color-text-muted); max-width:78ch; margin-top:var(--space-2); }
-    .actions { display:flex; gap:var(--space-3); align-items:center; flex-wrap:wrap; }
-    .btn { border:none; border-radius:999px; padding:.85rem 1.15rem; background:var(--color-surface); color:var(--color-text); border:1px solid var(--color-border); cursor:pointer; transition:all var(--transition); }
-    .btn:hover { transform:translateY(-1px); box-shadow:var(--shadow-md); }
-    .btn.primary { background:var(--color-primary); color:white; border-color:transparent; }
-    .grid { display:grid; grid-template-columns:1.5fr .95fr; gap:var(--space-6); }
-    .panel { background:var(--color-surface); border:1px solid var(--color-border); border-radius:24px; padding:var(--space-6); box-shadow:var(--shadow-md); }
-    .hero { display:grid; gap:var(--space-5); }
-    .eyebrow { font-size:var(--text-xs); letter-spacing:.12em; text-transform:uppercase; color:var(--color-text-muted); }
-    .reel-wrap { position:relative; overflow:hidden; border-radius:20px; background:var(--color-surface-offset); border:1px solid var(--color-border); padding:var(--space-6) 0; }
-    .reel-center { position:absolute; left:50%; top:0; bottom:0; width:180px; transform:translateX(-50%); border-left:2px solid color-mix(in srgb, var(--color-primary) 60%, transparent); border-right:2px solid color-mix(in srgb, var(--color-primary) 60%, transparent); background:linear-gradient(180deg, transparent, color-mix(in srgb, var(--color-primary-highlight) 30%, transparent), transparent); pointer-events:none; }
-    .reel { display:flex; gap:var(--space-4); padding-inline:var(--space-4); white-space:nowrap; transform:translateX(0); transition:transform 2200ms cubic-bezier(.15,.86,.21,1); }
-    .chip { display:inline-flex; align-items:center; justify-content:center; min-width:160px; padding:1rem 1.2rem; border-radius:999px; background:var(--color-surface); border:1px solid var(--color-border); font-weight:600; }
-    .result-card { display:grid; gap:var(--space-4); background:var(--color-surface-2); border:1px solid var(--color-border); border-radius:20px; padding:var(--space-5); }
-    .result-name { font-family:var(--font-display); font-size:var(--text-2xl); }
-    .meta { display:flex; flex-wrap:wrap; gap:var(--space-2); }
-    .pill { padding:.45rem .8rem; border-radius:999px; background:var(--color-primary-highlight); color:var(--color-text); font-size:var(--text-sm); }
-    .summary { max-width:72ch; }
-    .three-col { display:grid; grid-template-columns:1fr 1fr 1fr; gap:var(--space-4); }
-    .two-col { display:grid; grid-template-columns:1fr 1fr; gap:var(--space-4); }
-    .list-card { background:var(--color-surface-2); border:1px solid var(--color-border); border-radius:18px; padding:var(--space-4); }
-    .list-card ul { margin:var(--space-3) 0 0; padding-left:1rem; }
-    .control-stack { display:grid; gap:var(--space-4); }
-    .stars { display:flex; gap:.35rem; flex-wrap:wrap; }
-    .star { width:42px; height:42px; border-radius:50%; border:1px solid var(--color-border); background:var(--color-surface-offset); cursor:pointer; }
-    .star.active { background:var(--color-primary); color:white; }
-    .split { display:inline-flex; border-radius:999px; overflow:visible; width:max-content; position:relative; }
-    .split-main { border:none; background:var(--color-primary); color:white; padding:.85rem 1rem; cursor:pointer; border-radius:999px 0 0 999px; }
-    .split-toggle { border:none; background:var(--color-surface); color:var(--color-text); padding:.85rem .95rem; cursor:pointer; border:1px solid var(--color-border); border-left:none; border-radius:0 999px 999px 0; }
-    .menu { position:absolute; top:calc(100% + 10px); left:0; background:var(--color-surface); border:1px solid var(--color-border); border-radius:16px; box-shadow:var(--shadow-lg); padding:.4rem; display:none; min-width:240px; z-index:10; }
-    .menu.open { display:block; }
-    .menu button { width:100%; text-align:left; padding:.75rem .9rem; border:none; background:transparent; border-radius:12px; cursor:pointer; }
-    .menu button:hover { background:var(--color-surface-offset); }
-    textarea, input[type="text"], select { width:100%; border-radius:14px; border:1px solid var(--color-border); background:var(--color-surface-2); color:var(--color-text); padding:.85rem 1rem; }
-    .ranking-buckets { display:grid; gap:var(--space-4); }
-    .bucket { background:var(--color-surface-2); border:1px solid var(--color-border); border-radius:18px; padding:var(--space-4); }
-    .rank-list { list-style:none; padding:0; margin:var(--space-3) 0 0; display:grid; gap:.6rem; }
-    .rank-item { display:flex; justify-content:space-between; gap:1rem; align-items:center; padding:.8rem .9rem; background:var(--color-surface); border:1px solid var(--color-border); border-radius:14px; cursor:grab; }
-    .rank-item.dragging { opacity:.45; }
-    .library { margin-top:var(--space-6); }
-    .chat { margin-top:var(--space-6); }
-    .chat-log { max-height:420px; overflow:auto; display:grid; gap:12px; margin-bottom:12px; }
-    .bubble { padding:12px 14px; border-radius:16px; border:1px solid var(--color-border); }
-    .bubble.user { background:var(--color-surface-offset); }
-    .bubble.assistant { background:var(--color-surface-2); }
-    .small { color:var(--color-text-muted); font-size:var(--text-sm); }
-    table { width:100%; border-collapse:collapse; font-size:var(--text-sm); }
-    th, td { padding:.8rem .6rem; border-bottom:1px solid var(--color-border); text-align:left; vertical-align:top; }
-    th { color:var(--color-text-muted); font-weight:600; }
-    .status { padding:.7rem .9rem; border-radius:14px; background:var(--color-surface-offset); border:1px solid var(--color-border); }
-    @media (max-width: 1080px) { .grid, .two-col, .three-col { grid-template-columns:1fr; } .reel-center { width:140px; } }
+    [data-theme="dark"]{--color-bg:#171614;--color-surface:#1c1b19;--color-surface-2:#201f1d;--color-surface-offset:#22211f;--color-border:#393836;--color-text:#e2dfd9;--color-text-muted:#a8a39a;--color-primary:#4f98a3;--color-primary-hover:#76b7c0;--color-primary-highlight:#313b3b;--shadow-md:0 4px 12px rgba(0,0,0,.28);--shadow-lg:0 12px 32px rgba(0,0,0,.4);}
+    *{box-sizing:border-box;}
+    body{margin:0;font-family:var(--font-body);background:var(--color-bg);color:var(--color-text);line-height:1.55;}
+    button,input,select,textarea{font:inherit;}
+    .shell{max-width:1320px;margin:0 auto;padding:var(--space-6);}
+    .topbar{display:flex;justify-content:space-between;gap:var(--space-4);align-items:flex-start;margin-bottom:var(--space-8);}
+    .brand{display:flex;align-items:center;gap:var(--space-3);}
+    .logo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--color-primary),transparent),var(--color-surface-offset);border:1px solid var(--color-border);position:relative;box-shadow:var(--shadow-md);}
+    .logo:before,.logo:after{content:'';position:absolute;inset:10px;border-top:2px solid currentColor;border-bottom:2px solid currentColor;color:var(--color-text);opacity:.8;}
+    h1,h2,h3{margin:0;line-height:1.1;}
+    .title{font-family:var(--font-display);font-size:var(--text-xl);}
+    .subtitle{color:var(--color-text-muted);max-width:78ch;margin-top:var(--space-2);}
+    .actions{display:flex;gap:var(--space-3);align-items:center;flex-wrap:wrap;}
+    .btn{border:none;border-radius:999px;padding:.85rem 1.15rem;background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-border);cursor:pointer;transition:all var(--transition);}
+    .btn:hover{transform:translateY(-1px);box-shadow:var(--shadow-md);}
+    .btn.primary{background:var(--color-primary);color:white;border-color:transparent;}
+    .btn.test-active{background:#a0522d;color:white;border-color:transparent;}
+    .grid{display:grid;grid-template-columns:1.5fr .95fr;gap:var(--space-6);}
+    .panel{background:var(--color-surface);border:1px solid var(--color-border);border-radius:24px;padding:var(--space-6);box-shadow:var(--shadow-md);}
+    .hero{display:grid;gap:var(--space-5);}
+    .eyebrow{font-size:var(--text-xs);letter-spacing:.12em;text-transform:uppercase;color:var(--color-text-muted);}
+
+    /* ── Reel ─────────────────────────────────────────────────── */
+    .reel-wrap{position:relative;overflow:hidden;border-radius:20px;background:var(--color-surface-offset);border:1px solid var(--color-border);padding:var(--space-6) 0;}
+    .reel-fade-l,.reel-fade-r{position:absolute;top:0;bottom:0;width:120px;pointer-events:none;z-index:2;}
+    .reel-fade-l{left:0;background:linear-gradient(to right,var(--color-surface-offset),transparent);}
+    .reel-fade-r{right:0;background:linear-gradient(to left,var(--color-surface-offset),transparent);}
+    .reel-center{position:absolute;left:50%;top:0;bottom:0;width:220px;transform:translateX(-50%);border-left:2px solid color-mix(in srgb,var(--color-primary) 70%,transparent);border-right:2px solid color-mix(in srgb,var(--color-primary) 70%,transparent);background:linear-gradient(180deg,transparent,color-mix(in srgb,var(--color-primary-highlight) 35%,transparent),transparent);pointer-events:none;z-index:1;}
+    .reel{display:flex;gap:var(--space-4);padding-inline:600px;white-space:nowrap;will-change:transform;}
+    .chip{display:inline-flex;align-items:center;justify-content:center;min-width:170px;padding:1rem 1.2rem;border-radius:999px;background:var(--color-surface);border:1px solid var(--color-border);font-weight:600;font-size:var(--text-sm);transition:background var(--transition),color var(--transition);}
+    .chip.selected{background:var(--color-primary);color:white;border-color:transparent;}
+
+    .result-card{display:grid;gap:var(--space-4);background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:20px;padding:var(--space-5);}
+    .result-name{font-family:var(--font-display);font-size:var(--text-2xl);}
+    .meta{display:flex;flex-wrap:wrap;gap:var(--space-2);}
+    .pill{padding:.45rem .8rem;border-radius:999px;background:var(--color-primary-highlight);color:var(--color-text);font-size:var(--text-sm);}
+    .pill.test-pill{background:#f3e0d5;color:#7a3010;}
+    [data-theme="dark"] .pill.test-pill{background:#4a2010;color:#f0b090;}
+    .summary{max-width:72ch;}
+    .three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--space-4);}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4);}
+    .list-card{background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:18px;padding:var(--space-4);}
+    .list-card ul{margin:var(--space-3) 0 0;padding-left:1rem;}
+    .list-card li{margin-bottom:.4rem;}
+    .list-card a{color:var(--color-primary);text-decoration:none;font-size:var(--text-xs);}
+    .list-card a:hover{text-decoration:underline;}
+    .control-stack{display:grid;gap:var(--space-4);}
+    .stars{display:flex;gap:.35rem;flex-wrap:wrap;}
+    .star{width:42px;height:42px;border-radius:50%;border:1px solid var(--color-border);background:var(--color-surface-offset);cursor:pointer;transition:background var(--transition),color var(--transition);}
+    .star.active{background:var(--color-primary);color:white;}
+    .split{display:inline-flex;border-radius:999px;overflow:visible;width:max-content;position:relative;}
+    .split-main{border:none;background:var(--color-primary);color:white;padding:.85rem 1rem;cursor:pointer;border-radius:999px 0 0 999px;}
+    .split-toggle{border:none;background:var(--color-surface);color:var(--color-text);padding:.85rem .95rem;cursor:pointer;border:1px solid var(--color-border);border-left:none;border-radius:0 999px 999px 0;}
+    .menu{position:absolute;top:calc(100% + 10px);left:0;background:var(--color-surface);border:1px solid var(--color-border);border-radius:16px;box-shadow:var(--shadow-lg);padding:.4rem;display:none;min-width:240px;z-index:10;}
+    .menu.open{display:block;}
+    .menu button{width:100%;text-align:left;padding:.75rem .9rem;border:none;background:transparent;border-radius:12px;cursor:pointer;}
+    .menu button:hover{background:var(--color-surface-offset);}
+    textarea,input[type="text"],select{width:100%;border-radius:14px;border:1px solid var(--color-border);background:var(--color-surface-2);color:var(--color-text);padding:.85rem 1rem;}
+    .ranking-buckets{display:grid;gap:var(--space-4);}
+    .bucket{background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:18px;padding:var(--space-4);}
+    .rank-list{list-style:none;padding:0;margin:var(--space-3) 0 0;display:grid;gap:.6rem;}
+    .rank-item{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:.8rem .9rem;background:var(--color-surface);border:1px solid var(--color-border);border-radius:14px;cursor:grab;}
+    .rank-item.dragging{opacity:.45;}
+    .library{margin-top:var(--space-6);}
+    .chat{margin-top:var(--space-6);}
+    .chat-log{max-height:420px;overflow:auto;display:grid;gap:12px;margin-bottom:12px;}
+    .bubble{padding:12px 14px;border-radius:16px;border:1px solid var(--color-border);}
+    .bubble.user{background:var(--color-surface-offset);}
+    .bubble.assistant{background:var(--color-surface-2);}
+    .small{color:var(--color-text-muted);font-size:var(--text-sm);}
+    table{width:100%;border-collapse:collapse;font-size:var(--text-sm);}
+    th,td{padding:.8rem .6rem;border-bottom:1px solid var(--color-border);text-align:left;vertical-align:top;}
+    th{color:var(--color-text-muted);font-weight:600;}
+    .status{padding:.7rem .9rem;border-radius:14px;background:var(--color-surface-offset);border:1px solid var(--color-border);font-size:var(--text-sm);}
+    .status.test-mode{background:#f9f0ea;border-color:#d4956a;color:#7a3010;}
+    [data-theme="dark"] .status.test-mode{background:#3a1a08;border-color:#a0622d;color:#f0b090;}
+    .loading-dots::after{content:'…';animation:dots 1.2s steps(3,end) infinite;}
+    @keyframes dots{0%,33%{content:'.';}34%,66%{content:'..';}67%,100%{content:'…';}}
+    @media(max-width:1080px){.grid,.two-col,.three-col{grid-template-columns:1fr;}}
   </style>
 </head>
 <body>
-  <div class="shell">
-    <header class="topbar">
+<div class="shell">
+  <header class="topbar">
+    <div>
+      <div class="brand"><div class="logo" aria-hidden="true"></div><div><h1 class="title">Genre Discovery</h1><div class="small">GitHub-ready · Gemini AI · daily discovery</div></div></div>
+      <p class="subtitle">Horizontal genre reel, live AI summaries via Gemini, fresh artist/song suggestions, Discord copy, reratable genres, same-star drag ranking.</p>
+    </div>
+    <div class="actions">
+      <button class="btn" id="themeToggle">Toggle theme</button>
+      <button class="btn" id="testBtn">Test it out</button>
+      <button class="btn" id="refreshBtn">Refresh examples</button>
+      <button class="btn primary" id="spinBtn">Spin genre</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="panel hero">
+      <div><div class="eyebrow">Today's draw</div><h2>Daily genre engine</h2></div>
+
+      <div class="reel-wrap">
+        <div class="reel-fade-l"></div>
+        <div class="reel-fade-r"></div>
+        <div class="reel-center"></div>
+        <div class="reel" id="reel"></div>
+      </div>
+
+      <div class="status" id="statusBox">Ready. Add your Gemini API key in Settings for live AI summaries and the genre assistant. Without a key, the app uses built-in fallback descriptions.</div>
+
+      <article class="result-card">
+        <div class="eyebrow" id="selectedEyebrow">Selected genre</div>
+        <div class="result-name" id="genreName">—</div>
+        <div class="meta" id="metaRow">
+          <span class="pill" id="parentPill">Parent: —</span>
+          <span class="pill" id="familyPill">Family: —</span>
+          <span class="pill" id="datePill">Last listened: —</span>
+        </div>
+        <p class="summary" id="genreSummary">Spin or pick a genre to see its summary here.</p>
+        <div class="three-col">
+          <div class="list-card"><h3>Pioneering</h3><ul id="pioneerList"></ul></div>
+          <div class="list-card"><h3>Exemplar</h3><ul id="exemplarList"></ul></div>
+          <div class="list-card"><h3>Modern</h3><ul id="modernList"></ul></div>
+        </div>
+      </article>
+
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div class="split">
+          <button class="split-main" id="copyDefault">Copy for Discord</button>
+          <button class="split-toggle" id="copyToggle" aria-expanded="false">▾</button>
+          <div class="menu" id="copyMenu">
+            <button data-copy="artists">Copy without songs (summary + artists)</button>
+            <button data-copy="songs">Copy with songs (summary + artists + songs)</button>
+          </div>
+        </div>
+        <div class="small">Default = summary + artists. Alternate = also includes suggested songs.</div>
+      </div>
+    </section>
+
+    <aside class="panel control-stack">
+      <div><div class="eyebrow">Tracking</div><h2>Rate, rerank, revisit</h2></div>
       <div>
-        <div class="brand"><div class="logo" aria-hidden="true"></div><div><h1 class="title">Genre Discovery</h1><div class="small">GitHub-ready prototype with live hooks</div></div></div>
-        <p class="subtitle">Built for daily discovery over years: horizontal genre reel, one-paragraph live summary, fresh artist/song suggestions, Discord-friendly copy, reratable genres, and same-category same-star drag ranking.</p>
+        <div class="small">1–5 stars, editable anytime</div>
+        <div class="stars" id="stars"></div>
       </div>
-      <div class="actions">
-        <button class="btn" id="themeToggle">Toggle theme</button>
-        <button class="btn" id="testBtn">Test it out</button><button class="btn" id="refreshBtn">Refresh examples</button>
-        <button class="btn primary" id="spinBtn">Spin genre</button>
+      <label>
+        <div class="small">Favorite song</div>
+        <input type="text" id="favoriteSong" placeholder="Type your favorite song after listening" />
+      </label>
+      <label style="display:flex;align-items:center;gap:.65rem;">
+        <input type="checkbox" id="contender" style="width:auto;" />
+        <span>Song of the month contender</span>
+      </label>
+      <div>
+        <div class="small">Relative rank only within the same parent category and same star bucket</div>
+        <div class="ranking-buckets" id="rankingBuckets"></div>
       </div>
-    </header>
-
-    <main class="grid">
-      <section class="panel hero">
-        <div>
-          <div class="eyebrow">Today’s draw</div>
-          <h2>Daily genre engine</h2>
-        </div>
-        <div class="reel-wrap">
-          <div class="reel-center"></div>
-          <div class="reel" id="reel"></div>
-        </div>
-        <div class="status" id="statusBox">Ready. Use Spin genre for your real daily draw, or Test it out for a no-stakes spin that does not count toward tracking. Add your Perplexity API key in Settings for live summaries and chat; without a key, the app uses local fallback suggestions.</div>
-
-        <article class="result-card">
-          <div class="eyebrow">Selected genre</div>
-          <div class="result-name" id="genreName">Loading…</div>
-          <div class="meta">
-            <span class="pill" id="parentPill">Parent: —</span>
-            <span class="pill" id="topPill">Top category: —</span>
-            <span class="pill" id="datePill">Last listened: —</span>
-          </div>
-          <p class="summary" id="genreSummary">Loading summary…</p>
-          <div class="three-col">
-            <div class="list-card"><h3>Pioneering</h3><ul id="pioneerList"></ul></div>
-            <div class="list-card"><h3>Exemplar</h3><ul id="exemplarList"></ul></div>
-            <div class="list-card"><h3>Modern</h3><ul id="modernList"></ul></div>
-          </div>
-        </article>
-
-        <article class="panel" style="padding:0; background:transparent; border:none; box-shadow:none;">
-          <div class="split">
-            <button class="split-main" id="copyDefault">Copy for Discord</button>
-            <button class="split-toggle" id="copyToggle" aria-expanded="false">▾</button>
-            <div class="menu" id="copyMenu">
-              <button data-copy="artists">Copy without songs</button>
-              <button data-copy="songs">Copy with songs</button>
-            </div>
-          </div>
-          <div class="small" style="margin-top:12px;">Default copy = genre summary + suggested artists. Alternate copy = genre summary + suggested artists + songs.</div>
-        </article>
-      </section>
-
-      <aside class="panel control-stack">
-        <div>
-          <div class="eyebrow">Tracking</div>
-          <h2>Rate, rerank, revisit</h2>
-        </div>
-        <div>
-          <div class="small">1–5 stars, editable anytime</div>
-          <div class="stars" id="stars"></div>
-        </div>
+      <div class="list-card">
+        <h3>Settings</h3>
         <label>
-          <div class="small">Favorite song</div>
-          <input type="text" id="favoriteSong" placeholder="Type your favorite song after listening" />
+          <div class="small">Gemini API key <span style="color:var(--color-primary)">(free · saved in this browser)</span></div>
+          <input type="password" id="geminiKey" placeholder="AIza…" autocomplete="off" />
         </label>
-        <label style="display:flex; align-items:center; gap:.65rem;">
-          <input type="checkbox" id="contender" style="width:auto;" />
-          <span>Song of the month contender</span>
-        </label>
-        <div>
-          <div class="small">Relative rank only within the same parent category and same star bucket</div>
-          <div class="ranking-buckets" id="rankingBuckets"></div>
+        <div class="small" style="margin-top:10px;">
+          Get a free key at <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary)">aistudio.google.com</a>. Sign in with Google, click <strong>Create API key</strong>, copy it here. No credit card needed. The key is saved in this browser so you won't need to re-enter it on the same device.
         </div>
-        <div class="list-card">
-          <h3>Settings</h3>
-          <label><div class="small">Perplexity API key (optional)</div><input type="text" id="pplxKey" placeholder="pplx-... (saved in this browser)" /></label>
-          <div class="small" style="margin-top:10px;">If you add a key here, the app saves it in this browser so you should not have to re-enter it each time on the same device/browser. For safer long-term deployment, move the key to a small server-side proxy instead of leaving it in a public page.</div>
-        </div>
-      </aside>
-    </main>
-
-    <section class="panel chat">
-      <div class="two-col" style="align-items:end;">
-        <div>
-          <div class="eyebrow">Genre assistant</div>
-          <h2>Ask for more examples</h2>
-        </div>
-        <div class="small">Use this for follow-up discovery like “give me weirder examples” or “suggest more modern tracks.”</div>
       </div>
-      <div class="chat-log" id="chatLog"></div>
+    </aside>
+  </main>
+
+  <section class="panel chat">
+    <div class="two-col" style="align-items:end;margin-bottom:var(--space-4);">
+      <div><div class="eyebrow">Genre assistant</div><h2>Ask for more examples</h2></div>
+      <div class="small">Ask things like "give me weirder deep cuts" or "what modern artists carry this sound today?" Needs Gemini API key in Settings.</div>
+    </div>
+    <div class="chat-log" id="chatLog"></div>
+    <div class="two-col">
+      <input type="text" id="chatInput" placeholder="Ask for deeper cuts, adjacent scenes, or contemporary examples…" />
+      <button class="btn primary" id="sendChat">Ask assistant</button>
+    </div>
+  </section>
+
+  <section class="panel library">
+    <div class="two-col" style="align-items:end;margin-bottom:var(--space-4);">
+      <div><div class="eyebrow">All genres</div><h2>Full searchable list</h2></div>
       <div class="two-col">
-        <input type="text" id="chatInput" placeholder="Ask for deeper cuts, adjacent scenes, or more modern examples" />
-        <button class="btn primary" id="sendChat">Ask assistant</button>
+        <label><div class="small">Search</div><input type="text" id="searchBox" placeholder="Search genre or parent…" /></label>
+        <label><div class="small">Family (broad grouping)</div><select id="topFilter"><option value="">All families</option></select></label>
       </div>
-    </section>
-
-    <section class="panel library">
-      <div class="two-col" style="align-items:end;">
-        <div>
-          <div class="eyebrow">All genres</div>
-          <h2>Searchable listened-date view</h2>
-        </div>
-        <div class="two-col">
-          <label><div class="small">Search</div><input type="text" id="searchBox" placeholder="Search genre or category" /></label>
-          <label><div class="small">Family</div><select id="topFilter"><option value="">All</option></select></label>
-        </div>
-      </div>
-      <table>
-        <thead><tr><th>Row</th><th>Genre</th><th>Parent</th><th>Family</th><th>Listened date</th></tr></thead>
-        <tbody id="genreTable"></tbody>
-      </table>
-    </section>
-  </div>
+    </div>
+    <table>
+      <thead><tr><th>Row</th><th>Genre</th><th>Parent</th><th>Family</th><th>Last listened</th></tr></thead>
+      <tbody id="genreTable"></tbody>
+    </table>
+    <div class="small" style="margin-top:12px;">Row = original spreadsheet row. Family = broad genre grouping. Click a genre name to load it above.</div>
+  </section>
+</div>
 
 <script>
+// ── state ─────────────────────────────────────────────────────
+const state = {
+  ratings:    JSON.parse(localStorage.getItem('gd_ratings')   || '{}'),
+  rankings:   JSON.parse(localStorage.getItem('gd_rankings')  || '{}'),
+  notes:      JSON.parse(localStorage.getItem('gd_notes')     || '{}'),
+  liveCache:  JSON.parse(localStorage.getItem('gd_liveCache') || '{}'),
+  lastCopy:   'artists',
+  isTest:     false
+};
 let appData = null;
 let currentGenre = null;
-const state = {
-  ratings: JSON.parse(localStorage.getItem('genreRatings') || '{}'),
-  rankings: JSON.parse(localStorage.getItem('genreRankings') || '{}'),
-  notes: JSON.parse(localStorage.getItem('genreNotes') || '{}'),
-  lastCopyMode: 'artists',
-  cachedLive: JSON.parse(localStorage.getItem('genreLiveCache') || '{}')
-};
+let reelGenres = [];
+let spinning = false;
 
-const reel = document.getElementById('reel');
-const statusBox = document.getElementById('statusBox');
-const genreName = document.getElementById('genreName');
-const parentPill = document.getElementById('parentPill');
-const topPill = document.getElementById('topPill');
-const datePill = document.getElementById('datePill');
-const genreSummary = document.getElementById('genreSummary');
+// ── dom refs ──────────────────────────────────────────────────
+const reelEl      = document.getElementById('reel');
+const statusBox   = document.getElementById('statusBox');
+const genreName   = document.getElementById('genreName');
+const parentPill  = document.getElementById('parentPill');
+const familyPill  = document.getElementById('familyPill');
+const datePill    = document.getElementById('datePill');
+const selectedEyebrow = document.getElementById('selectedEyebrow');
+const genreSummary= document.getElementById('genreSummary');
 const pioneerList = document.getElementById('pioneerList');
-const exemplarList = document.getElementById('exemplarList');
-const modernList = document.getElementById('modernList');
-const starsWrap = document.getElementById('stars');
+const exemplarList= document.getElementById('exemplarList');
+const modernList  = document.getElementById('modernList');
+const starsWrap   = document.getElementById('stars');
 const rankingBuckets = document.getElementById('rankingBuckets');
-const searchBox = document.getElementById('searchBox');
-const topFilter = document.getElementById('topFilter');
-const genreTable = document.getElementById('genreTable');
-const pplxKey = document.getElementById('pplxKey');
-const favoriteSong = document.getElementById('favoriteSong');
-const contender = document.getElementById('contender');
-const chatLog = document.getElementById('chatLog');
-const chatInput = document.getElementById('chatInput');
+const searchBox   = document.getElementById('searchBox');
+const topFilter   = document.getElementById('topFilter');
+const genreTable  = document.getElementById('genreTable');
+const geminiKeyEl = document.getElementById('geminiKey');
+const favoriteSong= document.getElementById('favoriteSong');
+const contender   = document.getElementById('contender');
+const chatLog     = document.getElementById('chatLog');
+const chatInput   = document.getElementById('chatInput');
+const copyMenu    = document.getElementById('copyMenu');
+const copyToggle  = document.getElementById('copyToggle');
+const copyDefault = document.getElementById('copyDefault');
+const metaRow     = document.getElementById('metaRow');
 
-function initTheme(){
-  const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
-}
-initTheme();
+// ── theme ─────────────────────────────────────────────────────
+(function(){
+  const d = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', d);
+})();
 document.getElementById('themeToggle').addEventListener('click',()=>{
   const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
 });
 
-pplxKey.value = localStorage.getItem('pplxKey') || '';
-pplxKey.addEventListener('change', ()=> localStorage.setItem('pplxKey', pplxKey.value.trim()));
-favoriteSong.addEventListener('input', saveCurrentNotes);
-contender.addEventListener('change', saveCurrentNotes);
+// ── api key ───────────────────────────────────────────────────
+geminiKeyEl.value = localStorage.getItem('gd_geminiKey') || '';
+geminiKeyEl.addEventListener('change', () => {
+  localStorage.setItem('gd_geminiKey', geminiKeyEl.value.trim());
+});
+function getKey(){ return (geminiKeyEl.value || '').trim(); }
 
+// ── notes ─────────────────────────────────────────────────────
+favoriteSong.addEventListener('input', saveNotes);
+contender.addEventListener('change', saveNotes);
+function saveNotes(){
+  if(!currentGenre) return;
+  state.notes[currentGenre.Genre] = { favoriteSong: favoriteSong.value.trim(), contender: contender.checked };
+  persist();
+}
+function hydrateNotes(){
+  const n = state.notes[currentGenre?.Genre] || {};
+  favoriteSong.value = n.favoriteSong || '';
+  contender.checked = !!n.contender;
+}
+
+// ── persist ───────────────────────────────────────────────────
+function persist(){
+  localStorage.setItem('gd_ratings',   JSON.stringify(state.ratings));
+  localStorage.setItem('gd_rankings',  JSON.stringify(state.rankings));
+  localStorage.setItem('gd_notes',     JSON.stringify(state.notes));
+  localStorage.setItem('gd_liveCache', JSON.stringify(state.liveCache));
+}
+
+// ── data load ─────────────────────────────────────────────────
 async function loadData(){
   const res = await fetch('./data.json');
   appData = await res.json();
@@ -251,410 +304,374 @@ async function loadData(){
   buildStars();
   populateFilter();
   renderTable();
-  chooseInitialGenre();
+  // load first genre without spinning
+  const first = appData.genres[Math.floor(Math.random() * Math.min(appData.genres.length, 40))];
+  await setGenre(first, false);
 }
 
-function persist(){
-  localStorage.setItem('genreRatings', JSON.stringify(state.ratings));
-  localStorage.setItem('genreRankings', JSON.stringify(state.rankings));
-  localStorage.setItem('genreNotes', JSON.stringify(state.notes));
-  localStorage.setItem('genreLiveCache', JSON.stringify(state.cachedLive));
-}
-
+// ── reel ──────────────────────────────────────────────────────
 function buildReel(){
-  const picks = appData.genres.slice(0, 28);
-  const repeated = [...picks, ...picks, ...picks];
-  reel.innerHTML = repeated.map(g => `<span class="chip">${escapeHtml(g.Genre)}</span>`).join('');
-}
-
-function chooseInitialGenre(){
-  const first = appData.genres.find(g => g.Genre === 'Hyperpop') || appData.genres[0];
-  setGenre(first);
-}
-
-async function setGenre(genre, forceRefresh=false){
-  currentGenre = genre;
-  genreName.textContent = genre.Genre;
-  parentPill.textContent = `Parent: ${genre.ParentCategory || '—'}`;
-  topPill.textContent = `Top category: ${genre.TopCategory || '—'}`;
-  datePill.textContent = `Last listened: ${genre.LastListened || '—'}`;
-  hydrateNotes();
-  paintStars();
-  renderRankingBuckets();
-  await loadLiveOrFallback(genre, forceRefresh);
-}
-
-function hydrateNotes(){
-  const note = state.notes[currentGenre?.Genre] || {};
-  favoriteSong.value = note.favoriteSong || '';
-  contender.checked = !!note.contender;
-}
-
-function saveCurrentNotes(){
-  if(!currentGenre) return;
-  state.notes[currentGenre.Genre] = { favoriteSong: favoriteSong.value.trim(), contender: contender.checked };
-  persist();
-}
-
-function buildStars(){
-  starsWrap.innerHTML = '';
-  for(let i=1;i<=5;i++){
-    const b = document.createElement('button');
-    b.className = 'star';
-    b.textContent = '★';
-    b.setAttribute('aria-label', `${i} stars`);
-    b.addEventListener('click', ()=>{
-      if(!currentGenre) return;
-      const prev = state.ratings[currentGenre.Genre] || 0;
-      state.ratings[currentGenre.Genre] = i;
-      if(prev !== i) moveGenreBetweenBuckets(currentGenre, prev, i);
-      persist();
-      paintStars();
-      renderRankingBuckets();
-    });
-    starsWrap.appendChild(b);
+  reelGenres = appData.genres.slice();
+  // shuffle for variety
+  for(let i = reelGenres.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i+1));
+    [reelGenres[i], reelGenres[j]] = [reelGenres[j], reelGenres[i]];
   }
+  reelGenres = reelGenres.slice(0, Math.min(reelGenres.length, 60));
+  // render 3 copies for seamless loop room
+  const full = [...reelGenres, ...reelGenres, ...reelGenres];
+  reelEl.innerHTML = full.map((g,i) =>
+    `<span class="chip" data-index="${i % reelGenres.length}">${escapeHtml(g.Genre)}</span>`
+  ).join('');
 }
 
-function paintStars(){
-  const rating = state.ratings[currentGenre?.Genre] || 0;
-  [...starsWrap.children].forEach((star, idx)=> star.classList.toggle('active', idx < rating));
-}
+function spinGenre(isTest){
+  if(spinning) return;
+  spinning = true;
+  state.isTest = !!isTest;
 
-function keyFor(genre, stars){
-  return `${genre.TopCategory || 'Misc'}||${genre.ParentCategory || 'Misc'}||${stars}`;
-}
+  const target = appData.genres[Math.floor(Math.random() * appData.genres.length)];
+  // find the target index in our reel pool (or pick a random slot from copy 2)
+  const reelIdx = reelGenres.findIndex(g => g.Genre === target.Genre);
+  const useIdx = reelIdx >= 0 ? reelIdx : Math.floor(Math.random() * reelGenres.length);
 
-function moveGenreBetweenBuckets(genre, oldStars, newStars){
-  if(oldStars){
-    const oldKey = keyFor(genre, oldStars);
-    state.rankings[oldKey] = (state.rankings[oldKey] || []).filter(name => name !== genre.Genre);
-  }
-  const newKey = keyFor(genre, newStars);
-  state.rankings[newKey] = state.rankings[newKey] || [];
-  if(!state.rankings[newKey].includes(genre.Genre)) state.rankings[newKey].push(genre.Genre);
-}
+  // We want to land on the chip in the SECOND copy of the reel (middle set)
+  // so there's room before and after for animation.
+  const chips = reelEl.querySelectorAll('.chip');
+  const chipCount = reelGenres.length;
+  // target chip is in copy 2 = index chipCount + useIdx
+  const targetChip = chips[chipCount + useIdx];
 
-function renderRankingBuckets(){
-  if(!currentGenre) return;
-  const parent = currentGenre.ParentCategory || 'Uncategorized';
-  const top = currentGenre.TopCategory || 'Uncategorized';
-  const currentRating = state.ratings[currentGenre.Genre] || 0;
-  rankingBuckets.innerHTML = '';
+  // Calculate px offset so the target chip is centered in the viewport
+  const reelWrap = reelEl.parentElement;
+  const wrapCenter = reelWrap.offsetWidth / 2;
+  const chipLeft = targetChip.offsetLeft;
+  const chipWidth = targetChip.offsetWidth;
+  const finalOffset = chipLeft - wrapCenter + chipWidth / 2;
 
-  if(!currentRating){
-    rankingBuckets.innerHTML = `<div class="bucket"><strong>No ranking yet.</strong><div class="small" style="margin-top:8px;">Give this genre a star rating first. Then it can be ordered among other ${escapeHtml(parent)} genres with the same stars.</div></div>`;
-    return;
-  }
+  // Start from a position before the target (at least 800px of travel)
+  const startOffset = finalOffset - 900 - Math.random() * 400;
+  reelEl.style.transition = 'none';
+  reelEl.style.transform = `translateX(-${Math.max(0,startOffset)}px)`;
+  // force reflow then animate
+  reelEl.offsetHeight;
+  reelEl.style.transition = 'transform 2400ms cubic-bezier(.15,.86,.21,1)';
+  reelEl.style.transform = `translateX(-${finalOffset}px)`;
 
-  const bucketKey = `${top}||${parent}||${currentRating}`;
-  const items = state.rankings[bucketKey] || [currentGenre.Genre];
-  if(!state.rankings[bucketKey]) state.rankings[bucketKey] = items;
+  // Mark selected chip visually
+  chips.forEach(c => c.classList.remove('selected'));
+  targetChip.classList.add('selected');
 
-  const wrap = document.createElement('div');
-  wrap.className = 'bucket';
-  wrap.innerHTML = `<div><strong>${escapeHtml(parent)} · ${currentRating}★ bucket</strong></div><div class="small" style="margin-top:6px;">Drag only within this category and star level. Rerating moves the genre to a different bucket.</div>`;
-  const list = document.createElement('ul');
-  list.className = 'rank-list';
-  items.forEach(name => list.appendChild(makeRankItem(name, list, bucketKey)));
-  wrap.appendChild(list);
-  rankingBuckets.appendChild(wrap);
-}
-
-function makeRankItem(name, list, bucketKey){
-  const li = document.createElement('li');
-  li.className = 'rank-item';
-  li.draggable = true;
-  li.dataset.name = name;
-  li.innerHTML = `<span>${escapeHtml(name)}</span><span class="small">drag</span>`;
-  li.addEventListener('dragstart', ()=> li.classList.add('dragging'));
-  li.addEventListener('dragend', ()=> { li.classList.remove('dragging'); syncBucket(list, bucketKey); });
-  list.addEventListener('dragover', e => {
-    e.preventDefault();
-    const dragging = list.querySelector('.dragging');
-    const after = [...list.querySelectorAll('.rank-item:not(.dragging)')].find(el => e.clientY <= el.getBoundingClientRect().top + el.offsetHeight / 2);
-    if(!dragging) return;
-    if(after) list.insertBefore(dragging, after); else list.appendChild(dragging);
-  });
-  return li;
-}
-
-function syncBucket(list, bucketKey){
-  state.rankings[bucketKey] = [...list.querySelectorAll('.rank-item')].map(el => el.dataset.name);
-  persist();
-}
-
-function populateFilter(){
-  const cats = [...new Set(appData.genres.map(g => g.TopCategory).filter(Boolean))].sort();
-  cats.forEach(c => {
-    const opt = document.createElement('option');
-    opt.value = c; opt.textContent = c; topFilter.appendChild(opt);
-  });
-}
-
-function renderTable(){
-  const q = searchBox.value.trim().toLowerCase();
-  const top = topFilter.value;
-  const rows = appData.genres.filter(g => {
-    const hay = `${g.Genre} ${g.ParentCategory} ${g.TopCategory}`.toLowerCase();
-    return (!q || hay.includes(q)) && (!top || g.TopCategory === top);
-  }).slice(0, 400);
-  genreTable.innerHTML = rows.map(g => `<tr>
-    <td>${escapeHtml(g.OriginalRow || '—')}</td>
-    <td><button class="btn" style="padding:.45rem .75rem; border-radius:12px;" data-genre="${escapeAttr(g.Genre)}">${escapeHtml(g.Genre)}</button></td>
-    <td>${escapeHtml(g.ParentCategory || '—')}</td>
-    <td>${escapeHtml(g.TopCategory || '—')}</td>
-    <td>${escapeHtml(g.LastListened || '—')}</td>
-  </tr>`).join('');
-  genreTable.querySelectorAll('[data-genre]').forEach(btn => btn.addEventListener('click', async ()=>{
-    const genre = appData.genres.find(g => g.Genre === btn.dataset.genre);
-    if(genre) await setGenre(genre);
-    window.scrollTo({top:0, behavior:'smooth'});
-  }));
-}
-
-function spinGenre(isTest=false){
-  const all = appData.genres;
-  const genre = all[Math.floor(Math.random() * all.length)];
-  const offset = 1800 + Math.floor(Math.random() * 600);
-  reel.style.transform = `translateX(-${offset}px)`;
-  setTimeout(() => setGenre(genre), 2100);
-  setStatus(isTest ? 'Test spin only — this does not count toward your real tracking.' : 'Daily spin loaded.');
-  setTimeout(() => { reel.style.transition = 'none'; reel.style.transform = 'translateX(-800px)'; reel.offsetHeight; reel.style.transition = 'transform 2200ms cubic-bezier(.15,.86,.21,1)'; }, 2250);
+  setTimeout(async () => {
+    spinning = false;
+    await setGenre(target, false, isTest);
+  }, 2450);
 }
 
 document.getElementById('spinBtn').addEventListener('click', () => spinGenre(false));
 document.getElementById('testBtn').addEventListener('click', () => spinGenre(true));
-document.getElementById('refreshBtn').addEventListener('click', ()=> currentGenre && setGenre(currentGenre, true));
-searchBox.addEventListener('input', renderTable);
-topFilter.addEventListener('change', renderTable);
+document.getElementById('refreshBtn').addEventListener('click', () => {
+  if(currentGenre) setGenre(currentGenre, true, state.isTest);
+});
 
-async function loadLiveOrFallback(genre, forceRefresh=false){
-  const cacheKey = genre.Genre;
-  if(!forceRefresh && state.cachedLive[cacheKey]) {
-    renderLive(state.cachedLive[cacheKey], false);
-    return;
+// ── set genre ─────────────────────────────────────────────────
+async function setGenre(genre, forceRefresh=false, isTest=false){
+  currentGenre = genre;
+  state.isTest = isTest;
+
+  genreName.textContent = genre.Genre;
+  parentPill.textContent = `Parent: ${genre.ParentCategory || '—'}`;
+  familyPill.textContent = `Family: ${genre.TopCategory || '—'}`;
+  datePill.textContent   = `Last listened: ${genre.LastListened || 'Never'}`;
+
+  // test mode badge
+  const existingBadge = metaRow.querySelector('.test-pill');
+  if(isTest){
+    if(!existingBadge){
+      const badge = document.createElement('span');
+      badge.className = 'pill test-pill';
+      badge.textContent = '🎲 Test spin — not tracked';
+      metaRow.appendChild(badge);
+    }
+  } else {
+    if(existingBadge) existingBadge.remove();
   }
-  const key = (pplxKey.value || '').trim();
-  if(key){
+  selectedEyebrow.textContent = isTest ? 'Test spin — not counted' : 'Selected genre';
+
+  hydrateNotes();
+  paintStars();
+  renderRankingBuckets();
+  await loadSummary(genre, forceRefresh);
+
+  // sync reel chip highlight without re-spinning
+  const reelIdx = reelGenres.findIndex(g => g.Genre === genre.Genre);
+  if(reelIdx >= 0){
+    const chips = reelEl.querySelectorAll('.chip');
+    chips.forEach(c => c.classList.remove('selected'));
+    const chipCount = reelGenres.length;
+    chips[chipCount + reelIdx]?.classList.add('selected');
+  }
+}
+
+// ── summary / suggestion engine ───────────────────────────────
+async function loadSummary(genre, forceRefresh){
+  const key = forceRefresh ? null : state.liveCache[genre.Genre];
+  if(key){ renderData(key); return; }
+  const apiKey = getKey();
+  if(apiKey){
     try {
-      setStatus('Generating live summary and fresh examples…');
-      const live = await generateWithPerplexity(genre, key);
-      state.cachedLive[cacheKey] = live;
+      setStatus('Generating summary and fresh examples<span class="loading-dots"></span>', false);
+      const data = await fetchFromGemini(genre, apiKey);
+      state.liveCache[genre.Genre] = data;
       persist();
-      renderLive(live, true);
+      renderData(data);
+      setStatus(`Live AI summary loaded for <strong>${escapeHtml(genre.Genre)}</strong>.`, false);
       return;
-    } catch (err) {
-      console.error(err);
-      setStatus('Live generation failed, showing fallback data.');
+    } catch(e){
+      console.error(e);
+      setStatus('Gemini request failed — showing fallback data.', false);
     }
   }
-  const fallback = makeFallbackLive(genre);
-  renderLive(fallback, false);
+  const fallback = buildFallback(genre);
+  renderData(fallback);
+  if(!apiKey) setStatus('No Gemini key — showing fallback data. Add your key in Settings for live AI summaries.', false);
 }
 
-function makeFallbackLive(genre){
-  const heard = appData.blacklist.filter(x => (x.genres || '').toLowerCase().includes(genre.Genre.toLowerCase()));
-  const blocked = new Set(heard.map(x => `${x.track} — ${x.artist}`.toLowerCase()));
-  const seed = appData.seed[genre.Genre] || {
-    summary: `${genre.Genre} is a subgenre of ${genre.ParentCategory || genre.TopCategory || 'music'} with a distinct identity inside that branch. In the live GitHub build, this paragraph will be generated on demand from AI or external sources and kept to one paragraph for fast discovery and easy Discord sharing.`,
-    artists: ['Pioneer artist', 'Exemplar artist', 'Modern artist'],
-    songs: ['Foundational song — Pioneer artist', 'Canonical song — Exemplar artist', 'Recent example — Modern artist']
-  };
-  const dedupeSongs = seed.songs.filter(s => !blocked.has(s.toLowerCase()));
-  return {
-    summary: seed.summary,
-    parentLabel: genre.ParentCategory || genre.TopCategory || '—',
-    pioneer: [{ artist: seed.artists[0] || 'Pioneer artist', song: dedupeSongs[0] || '', spotify: '' }],
-    exemplar: (seed.artists.slice(1,3).map((artist, idx) => ({ artist, song: dedupeSongs[idx+1] || '', spotify: '' }))),
-    modern: [{ artist: seed.artists[3] || seed.artists[2] || 'Modern artist', song: dedupeSongs[3] || '', spotify: '' }],
-    citations: []
-  };
+async function fetchFromGemini(genre, apiKey){
+  const blacklist = (appData.blacklist || [])
+    .filter(x => x.genres && x.genres.toLowerCase().includes(genre.Genre.toLowerCase()))
+    .slice(0,60)
+    .map(x => `${x.track} — ${x.artist}`)
+    .join(' | ') || 'none';
+
+  const prompt = `You are a music expert helping a user discover new genres. Respond with VALID JSON ONLY, no markdown, no code fences, no explanation.
+
+Genre: ${genre.Genre}
+Parent category: ${genre.ParentCategory || genre.TopCategory || 'Unknown'}
+Family (broad grouping): ${genre.TopCategory || 'Unknown'}
+
+Return this exact JSON shape:
+{
+  "summary": "one paragraph, max 4 sentences, mention the parent category, describe sound and origin",
+  "pioneer": [{"artist":"...","song":"..."}],
+  "exemplar": [{"artist":"...","song":"..."},{"artist":"...","song":"..."}],
+  "modern": [{"artist":"...","song":"..."},{"artist":"...","song":"..."}]
 }
 
-async function generateWithPerplexity(genre, key){
-  const blacklist = appData.blacklist
-    .filter(x => (x.genres || '').toLowerCase().includes(genre.Genre.toLowerCase()))
-    .slice(0, 80)
-    .map(x => `${x.track} — ${x.artist}`);
+Rules:
+- pioneer: 1-2 historically foundational artists/tracks for this genre if applicable
+- exemplar: 2-3 canonical/representative artists/tracks
+- modern: 2-3 contemporary or recent artists/tracks
+- Do NOT include any of these already-heard tracks: ${blacklist}
+- Focus on discovery. Each entry must have both artist and song fields.`;
 
-  const prompt = `You are helping build a music discovery app. Genre: ${genre.Genre}. Parent category: ${genre.ParentCategory || genre.TopCategory || 'Unknown'}. Top category: ${genre.TopCategory || 'Unknown'}.
-
-Task: return JSON only with keys summary, pioneer, exemplar, modern.
-- summary: max 1 paragraph, concise, mention the parent category explicitly.
-- pioneer/exemplar/modern: arrays of objects with keys artist, song.
-- Prioritize discovery. Suggest tracks and artists not in this blacklist if possible.
-- pioneer should be historically foundational if possible.
-- exemplar should be representative.
-- modern should be newer or contemporary examples.
-- Keep total songs modest.
-Blacklist already heard by user: ${blacklist.join(' | ') || 'none available'}`;
-
-  const res = await fetch('https://api.perplexity.ai/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${key}`
-    },
-    body: JSON.stringify({
-      model: 'sonar',
-      messages: [
-        { role: 'system', content: 'Return valid JSON only. No markdown fences. No extra text.' },
-        { role: 'user', content: prompt }
-      ],
-      temperature: 0.2
-    })
-  });
-  if(!res.ok) throw new Error('Perplexity request failed');
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.3, maxOutputTokens: 800 }
+      })
+    }
+  );
+  if(!res.ok) throw new Error(`Gemini HTTP ${res.status}`);
   const json = await res.json();
-  const raw = json.choices?.[0]?.message?.content || '{}';
-  let parsed = JSON.parse(raw);
-  parsed.citations = json.citations || [];
-  await enrichWithSpotify(parsed, key);
+  const raw = json.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
+  // strip any accidental fences
+  const clean = raw.replace(/^```json\s*/,'').replace(/^```\s*/,'').replace(/\s*```$/,'').trim();
+  const parsed = JSON.parse(clean);
+  // add spotify search links
+  for(const list of [parsed.pioneer||[], parsed.exemplar||[], parsed.modern||[]]){
+    for(const item of list){
+      item.spotify = `https://open.spotify.com/search/${encodeURIComponent((item.song||'') + ' ' + (item.artist||''))}`;
+    }
+  }
   return parsed;
 }
 
-async function enrichWithSpotify(parsed){
-  const all = [...(parsed.pioneer||[]), ...(parsed.exemplar||[]), ...(parsed.modern||[])];
-  for(const item of all){
-    item.spotify = item.spotify || makeSpotifySearchUrl(item.song, item.artist);
+function buildFallback(genre){
+  const seed = (appData.seed || {})[genre.Genre];
+  if(seed){
+    return {
+      summary: seed.summary,
+      pioneer:  [{artist: seed.artists[0]||'', song: seed.songs[0]||''}],
+      exemplar: (seed.artists.slice(1,3)||[]).map((a,i)=>({artist:a,song:seed.songs[i+1]||''})),
+      modern:   [{artist: seed.artists[3]||seed.artists[2]||'', song: seed.songs[3]||seed.songs[2]||''}]
+    };
   }
-}
-
-function makeSpotifySearchUrl(song, artist){
-  const q = encodeURIComponent(`${song || ''} ${artist || ''}`.trim());
-  return `https://open.spotify.com/search/${q}`;
-}
-
-function renderLive(data, isLive){
-  genreSummary.textContent = data.summary || 'No summary available.';
-  renderSuggestionList(pioneerList, data.pioneer || []);
-  renderSuggestionList(exemplarList, data.exemplar || []);
-  renderSuggestionList(modernList, data.modern || []);
-  setStatus(isLive ? 'Live summary and examples loaded.' : 'Showing fallback data. Add a Perplexity API key for live generation.');
-}
-
-function renderSuggestionList(el, arr){
-  el.innerHTML = arr.map(item => {
-    const base = item.song ? `${escapeHtml(item.song)} — ${escapeHtml(item.artist || '')}` : `${escapeHtml(item.artist || '')}`;
-    const link = item.spotify ? ` <a href="${item.spotify}" target="_blank" rel="noopener noreferrer">Spotify</a>` : '';
-    return `<li>${base}${link}</li>`;
-  }).join('');
-}
-
-function setStatus(msg){ statusBox.textContent = msg; }
-
-const copyMenu = document.getElementById('copyMenu');
-const copyToggle = document.getElementById('copyToggle');
-const copyDefault = document.getElementById('copyDefault');
-
-function getCurrentSuggestionData(){
-  const extract = (ul) => [...ul.querySelectorAll('li')].map(li => li.textContent.replace('Spotify','').trim());
   return {
-    summary: genreSummary.textContent,
-    pioneer: extract(pioneerList),
-    exemplar: extract(exemplarList),
-    modern: extract(modernList)
+    summary: `${genre.Genre} is a subgenre of ${genre.ParentCategory || genre.TopCategory || 'music'}. Add a Gemini API key in Settings to load a live one-paragraph description and fresh artist suggestions tailored to your listening history.`,
+    pioneer:  [{artist:'Pioneer artist',song:'Foundational track'}],
+    exemplar: [{artist:'Exemplar artist',song:'Representative track'}],
+    modern:   [{artist:'Modern artist',song:'Contemporary track'}]
   };
 }
 
-function discordText(mode='artists'){
-  const d = getCurrentSuggestionData();
-  let artistNames = [];
-  const songLines = [];
-  [...d.pioneer, ...d.exemplar, ...d.modern].forEach(line => {
-    const parts = line.split(' — ');
-    if(parts.length > 1){
-      songLines.push(line);
-      artistNames.push(parts.slice(1).join(' — '));
-    } else if(line.trim()) {
-      artistNames.push(line.trim());
-    }
-  });
-  artistNames = [...new Set(artistNames.filter(Boolean))];
+function renderData(data){
+  genreSummary.textContent = data.summary || '';
+  renderList(pioneerList,  data.pioneer  || []);
+  renderList(exemplarList, data.exemplar || []);
+  renderList(modernList,   data.modern   || []);
+}
 
-  let txt = `**Genre of the Day:** ${currentGenre.Genre}
-`;
-  txt += `**Parent category:** ${currentGenre.ParentCategory || currentGenre.TopCategory || '—'}
+function renderList(el, arr){
+  el.innerHTML = arr.map(item => {
+    const label = item.song ? `${escapeHtml(item.song)} — ${escapeHtml(item.artist||'')}` : escapeHtml(item.artist||'');
+    const link  = item.spotify ? ` <a href="${item.spotify}" target="_blank" rel="noopener noreferrer">▸ Spotify</a>` : '';
+    return `<li>${label}${link}</li>`;
+  }).join('');
+}
 
-`;
-  txt += `**Summary:** ${d.summary}
+// ── status bar ────────────────────────────────────────────────
+function setStatus(html, isTest){
+  statusBox.innerHTML = html;
+  statusBox.className = 'status' + (isTest ? ' test-mode' : '');
+}
 
-`;
-  txt += `**Suggested artists:**
-`;
-  artistNames.forEach(a => txt += `- ${a}
-`);
-  if(mode === 'songs'){
-    txt += `
-**Suggested songs:**
-`;
-    songLines.forEach(s => txt += `- ${s}
-`);
+// ── stars ─────────────────────────────────────────────────────
+function buildStars(){
+  starsWrap.innerHTML = '';
+  for(let i=1;i<=5;i++){
+    const b = document.createElement('button');
+    b.className = 'star'; b.textContent = '★'; b.setAttribute('aria-label',`${i} stars`);
+    b.addEventListener('click',()=>{
+      if(!currentGenre) return;
+      const prev = state.ratings[currentGenre.Genre]||0;
+      state.ratings[currentGenre.Genre] = i;
+      if(prev !== i) moveBucket(currentGenre, prev, i);
+      persist(); paintStars(); renderRankingBuckets();
+    });
+    starsWrap.appendChild(b);
   }
-  return txt.trim();
+}
+function paintStars(){
+  const r = state.ratings[currentGenre?.Genre]||0;
+  [...starsWrap.children].forEach((s,i)=> s.classList.toggle('active', i < r));
 }
 
-copyDefault.addEventListener('click', async ()=> {
-  await navigator.clipboard.writeText(discordText(state.lastCopyMode));
-  flashCopyLabel(state.lastCopyMode === 'songs' ? 'Copied with songs' : 'Copied for Discord');
-});
-copyToggle.addEventListener('click', ()=> {
-  copyMenu.classList.toggle('open');
-  copyToggle.setAttribute('aria-expanded', copyMenu.classList.contains('open') ? 'true' : 'false');
-});
-copyMenu.querySelectorAll('button').forEach(btn => btn.addEventListener('click', async ()=> {
-  state.lastCopyMode = btn.dataset.copy;
-  await navigator.clipboard.writeText(discordText(btn.dataset.copy));
-  copyMenu.classList.remove('open');
-  flashCopyLabel(btn.dataset.copy === 'songs' ? 'Copied with songs' : 'Copied without songs');
-}));
-function flashCopyLabel(label){ copyDefault.textContent = label; setTimeout(()=> copyDefault.textContent = 'Copy for Discord', 1500); }
-
-function addBubble(role, text){
-  const div = document.createElement('div');
-  div.className = `bubble ${role}`;
-  div.textContent = text;
-  chatLog.appendChild(div);
-  chatLog.scrollTop = chatLog.scrollHeight;
+// ── bucket ranking ────────────────────────────────────────────
+function bucketKey(genre, stars){ return `${genre.TopCategory||'Misc'}||${genre.ParentCategory||'Misc'}||${stars}`; }
+function moveBucket(genre, oldS, newS){
+  if(oldS){ const k=bucketKey(genre,oldS); state.rankings[k]=(state.rankings[k]||[]).filter(n=>n!==genre.Genre); }
+  const k=bucketKey(genre,newS); state.rankings[k]=state.rankings[k]||[];
+  if(!state.rankings[k].includes(genre.Genre)) state.rankings[k].push(genre.Genre);
 }
-
-document.getElementById('sendChat').addEventListener('click', askAssistant);
-chatInput.addEventListener('keydown', e => { if(e.key === 'Enter') askAssistant(); });
-
-async function askAssistant(){
-  const q = chatInput.value.trim();
-  if(!q || !currentGenre) return;
-  addBubble('user', q);
-  chatInput.value = '';
-  const key = (pplxKey.value || '').trim();
-  if(!key){
-    addBubble('assistant', `Add a Perplexity API key in Settings to ask live follow-up questions about ${currentGenre.Genre}.`);
+function renderRankingBuckets(){
+  if(!currentGenre){ rankingBuckets.innerHTML=''; return; }
+  const rating = state.ratings[currentGenre.Genre]||0;
+  rankingBuckets.innerHTML='';
+  if(!rating){
+    rankingBuckets.innerHTML=`<div class="bucket"><strong>No ranking yet.</strong><div class="small" style="margin-top:8px;">Give this genre a star rating first. Then you can order it among other ${escapeHtml(currentGenre.ParentCategory||'same-parent')} genres with the same stars.</div></div>`;
     return;
   }
-  addBubble('assistant', 'Thinking…');
+  const bk = bucketKey(currentGenre, rating);
+  if(!state.rankings[bk]) state.rankings[bk] = [currentGenre.Genre];
+  const wrap = document.createElement('div'); wrap.className='bucket';
+  wrap.innerHTML=`<div><strong>${escapeHtml(currentGenre.ParentCategory||'Genre')} · ${rating}★ bucket</strong></div><div class="small" style="margin-top:6px;">Drag to reorder within this category and star level only.</div>`;
+  const list = document.createElement('ul'); list.className='rank-list';
+  state.rankings[bk].forEach(name => list.appendChild(makeRankItem(name, list, bk)));
+  wrap.appendChild(list); rankingBuckets.appendChild(wrap);
+}
+function makeRankItem(name, list, bk){
+  const li = document.createElement('li'); li.className='rank-item'; li.draggable=true; li.dataset.name=name;
+  li.innerHTML=`<span>${escapeHtml(name)}</span><span class="small">☰ drag</span>`;
+  li.addEventListener('dragstart',()=> li.classList.add('dragging'));
+  li.addEventListener('dragend',()=>{ li.classList.remove('dragging'); syncBucket(list,bk); });
+  list.addEventListener('dragover',e=>{
+    e.preventDefault();
+    const dragging=list.querySelector('.dragging');
+    const after=[...list.querySelectorAll('.rank-item:not(.dragging)')].find(el=>e.clientY<=el.getBoundingClientRect().top+el.offsetHeight/2);
+    if(!dragging) return;
+    if(after) list.insertBefore(dragging,after); else list.appendChild(dragging);
+  });
+  return li;
+}
+function syncBucket(list,bk){ state.rankings[bk]=[...list.querySelectorAll('.rank-item')].map(el=>el.dataset.name); persist(); }
+
+// ── table / filter ────────────────────────────────────────────
+function populateFilter(){
+  const cats=[...new Set(appData.genres.map(g=>g.TopCategory).filter(Boolean))].sort();
+  cats.forEach(c=>{ const o=document.createElement('option'); o.value=c; o.textContent=c; topFilter.appendChild(o); });
+}
+function renderTable(){
+  const q=searchBox.value.trim().toLowerCase();
+  const top=topFilter.value;
+  const rows=appData.genres.filter(g=>{
+    const hay=`${g.Genre} ${g.ParentCategory} ${g.TopCategory}`.toLowerCase();
+    return (!q||hay.includes(q))&&(!top||g.TopCategory===top);
+  }).slice(0,400);
+  genreTable.innerHTML=rows.map(g=>`<tr>
+    <td style="color:var(--color-text-muted);min-width:42px;">${escapeHtml(String(g.OriginalRow||''))}</td>
+    <td><button class="btn" style="padding:.4rem .7rem;border-radius:10px;" data-genre="${escapeAttr(g.Genre)}">${escapeHtml(g.Genre)}</button></td>
+    <td>${escapeHtml(g.ParentCategory||'—')}</td>
+    <td>${escapeHtml(g.TopCategory||'—')}</td>
+    <td>${escapeHtml(g.LastListened||'—')}</td>
+  </tr>`).join('');
+  genreTable.querySelectorAll('[data-genre]').forEach(btn=>btn.addEventListener('click',async()=>{
+    const genre=appData.genres.find(g=>g.Genre===btn.dataset.genre);
+    if(genre){ await setGenre(genre,false,false); window.scrollTo({top:0,behavior:'smooth'}); }
+  }));
+}
+searchBox.addEventListener('input',renderTable);
+topFilter.addEventListener('change',renderTable);
+
+// ── discord copy ──────────────────────────────────────────────
+function extractText(ul){ return [...ul.querySelectorAll('li')].map(li=>li.textContent.replace('▸ Spotify','').trim()); }
+function buildDiscordText(mode){
+  const summary = genreSummary.textContent;
+  const allLines = [...extractText(pioneerList),...extractText(exemplarList),...extractText(modernList)];
+  const artists=[...new Set(allLines.map(l=>{ const p=l.split(' — '); return p.length>1?p.slice(1).join(' — '):l; }).filter(Boolean))];
+  let txt=`**Genre of the Day:** ${currentGenre?.Genre||'—'}
+`;
+  txt+=`**Parent category:** ${currentGenre?.ParentCategory||currentGenre?.TopCategory||'—'}
+
+`;
+  txt+=`**Summary:** ${summary}
+
+`;
+  txt+=`**Suggested artists:**
+`; artists.forEach(a=>txt+=`- ${a}
+`);
+  if(mode==='songs'){ txt+=`
+**Suggested songs:**
+`; allLines.forEach(s=>txt+=`- ${s}
+`); }
+  return txt.trim();
+}
+copyDefault.addEventListener('click', async()=>{ await navigator.clipboard.writeText(buildDiscordText(state.lastCopy)); flashCopy(state.lastCopy==='songs'?'Copied with songs':'Copied for Discord'); });
+copyToggle.addEventListener('click',()=>{ copyMenu.classList.toggle('open'); copyToggle.setAttribute('aria-expanded',copyMenu.classList.contains('open')); });
+copyMenu.querySelectorAll('button').forEach(btn=>btn.addEventListener('click',async()=>{
+  state.lastCopy=btn.dataset.copy; await navigator.clipboard.writeText(buildDiscordText(btn.dataset.copy));
+  copyMenu.classList.remove('open'); flashCopy(btn.dataset.copy==='songs'?'Copied with songs':'Copied without songs');
+}));
+function flashCopy(label){ copyDefault.textContent=label; setTimeout(()=>copyDefault.textContent='Copy for Discord',1600); }
+
+// ── chat assistant ────────────────────────────────────────────
+function addBubble(role,text){ const d=document.createElement('div'); d.className=`bubble ${role}`; d.textContent=text; chatLog.appendChild(d); chatLog.scrollTop=chatLog.scrollHeight; return d; }
+document.getElementById('sendChat').addEventListener('click', ask);
+chatInput.addEventListener('keydown',e=>{ if(e.key==='Enter') ask(); });
+async function ask(){
+  const q=chatInput.value.trim(); if(!q||!currentGenre) return;
+  addBubble('user',q); chatInput.value='';
+  const apiKey=getKey();
+  if(!apiKey){ addBubble('assistant',`Add a Gemini API key in Settings to use the genre assistant.`); return; }
+  const thinking=addBubble('assistant','Thinking…');
   try {
-    const res = await fetch('https://api.perplexity.ai/chat/completions', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
-      body: JSON.stringify({
-        model: 'sonar',
-        messages: [
-          { role: 'system', content: 'Answer briefly and clearly for a music discovery app user.' },
-          { role: 'user', content: `Current genre: ${currentGenre.Genre}. Parent: ${currentGenre.ParentCategory || currentGenre.TopCategory || 'Unknown'}. User question: ${q}` }
-        ],
-        temperature: 0.3
-      })
+    const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({ contents:[{parts:[{text:`You are a music discovery expert. Current genre: ${currentGenre.Genre}. Parent: ${currentGenre.ParentCategory||currentGenre.TopCategory||'Unknown'}. User question: ${q}
+
+Answer briefly and helpfully for a music discovery app user.`}]}], generationConfig:{temperature:0.4,maxOutputTokens:400} })
     });
-    const json = await res.json();
-    const answer = json.choices?.[0]?.message?.content || 'No answer returned.';
-    chatLog.lastChild.textContent = answer;
-  } catch(err){
-    chatLog.lastChild.textContent = 'The assistant could not answer right now.';
-  }
+    const json=await res.json();
+    thinking.textContent=json.candidates?.[0]?.content?.parts?.[0]?.text||'No answer returned.';
+  } catch(e){ thinking.textContent='The assistant could not answer right now.'; }
 }
 
-function escapeHtml(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+// ── helpers ───────────────────────────────────────────────────
+function escapeHtml(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function escapeAttr(s){ return String(s).replace(/"/g,'&quot;'); }
 
 loadData();

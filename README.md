@@ -23,6 +23,15 @@ This build supports:
 ## Important note
 Putting a Perplexity API key directly into a static site exposes it to the browser. For a safer production setup, use a small proxy function (Cloudflare Worker, Netlify Function, or Vercel serverless endpoint) to hold the key server-side.
 
+## Getting your Gemini API key (free)
+1. Go to https://aistudio.google.com/app/apikey (sign in with Google, any Gmail works)
+2. Click **Create API key**
+3. Copy the key (starts with AIza)
+4. Open the app, scroll to **Settings**, paste it in the **Gemini API key** field
+5. Click outside the field — it saves automatically in your browser
+
+Free limits: ~1,500 requests/day, no credit card needed.
+
 ## Notes for your setup
 - The Perplexity key field is saved in the same browser via localStorage, so you should not need to re-enter it every visit on that same device/browser.
 - In the full genre list, `Family` is the broad top-level grouping from your spreadsheet (for example Jazz, Rock, Electronic, Pop).
