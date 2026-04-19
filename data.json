@@ -1,0 +1,5780 @@
+{
+  "genres": [
+    {
+      "Genre": "Crossover music",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Danger music",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": "2026-03-19"
+    },
+    {
+      "Genre": "Drone music",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electroacoustic",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Industrial music",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Instrumental",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Lo-fi",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Musical improvisation",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Musique concr\u00e8te",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Noise",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Outsider music",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive music",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic music",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Underground music",
+      "TopCategory": "",
+      "ParentCategory": "Avant-garde & experimental",
+      "LastListened": ""
+    },
+    {
+      "Genre": "African blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blues rock",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "British blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Canadian blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chicago blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": "2026-02-24"
+    },
+    {
+      "Genre": "Classic female blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Contemporary R&B",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Country blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Delta blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Desert blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Detroit blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": "2026-01-01"
+    },
+    {
+      "Genre": "Doo-wop",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electric blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gospel blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hill country blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hokum blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jump blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kansas City blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Louisiana blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Memphis blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New Orleans blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Piedmont blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Punk blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rhythm and blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Soul blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": "2026-03-30"
+    },
+    {
+      "Genre": "St. Louis blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Swamp blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Talking blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": "2026-03-15"
+    },
+    {
+      "Genre": "Texas blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "West Coast blues",
+      "TopCategory": "",
+      "ParentCategory": "Blues",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Alternative country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Americana",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-03-31"
+    },
+    {
+      "Genre": "Australian country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bakersfield sound",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blue Yodeling",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bluegrass",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bro-country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bush band",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cajun fiddle",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cajun music",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Canadian country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Christian country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Classic country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Country and Irish",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Country folk",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Country pop",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Country rap",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-02-08"
+    },
+    {
+      "Genre": "Country rock",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Countrypolitan",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cowboy pop",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cowpunk",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dansband",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-03-10"
+    },
+    {
+      "Genre": "Franco-country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gothabilly",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-02-08"
+    },
+    {
+      "Genre": "Gothic Western",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gothic country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hokum",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Honky tonk",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Lubbock sound",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-01-15"
+    },
+    {
+      "Genre": "Nashville sound",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neotraditional country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New Mexico music",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-04-16"
+    },
+    {
+      "Genre": "Old-time",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Outlaw country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-02-25"
+    },
+    {
+      "Genre": "Progressive bluegrass",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychobilly",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Red dirt",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Regional Mexican",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rockabilly",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Roots rock",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Scrumpy and Western",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sertanejo",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Singing cowboy",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Southern rock",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Southern soul",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tejano music",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Texas country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Traditional bluegrass",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-03-15"
+    },
+    {
+      "Genre": "Tropical Rock",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-02-21"
+    },
+    {
+      "Genre": "Truck-driving country",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": "2026-04-11"
+    },
+    {
+      "Genre": "Western music",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Western swing",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Zydeco",
+      "TopCategory": "",
+      "ParentCategory": "Country",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Adult contemporary music",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Adult standards",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ambient",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": "2026-02-13"
+    },
+    {
+      "Genre": "Background music",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Barococo",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Beautiful music",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chill-out",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Downtempo",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Elevator music",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Furniture music",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Light music",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": "2026-02-14"
+    },
+    {
+      "Genre": "Lounge music",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Middle of the road",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New-age music",
+      "TopCategory": "",
+      "ParentCategory": "Easy listening",
+      "LastListened": ""
+    },
+    {
+      "Genre": "2-step garage",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Acid breaks",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Acid house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Acid techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Acid trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Acousmatic music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "African electronic dance music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Afro house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-18"
+    },
+    {
+      "Genre": "Afro tech",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Afro trap",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Afro/cosmic music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-13"
+    },
+    {
+      "Genre": "Afrobeats",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Afroswing",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Aggrotech",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Algorave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Alternative R&B",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Alternative dance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Alternative hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Amapiano",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ambient dub",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ambient house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ambient industrial",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ambient techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-26"
+    },
+    {
+      "Genre": "Asian Underground",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Atmospheric drum and bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Azonto",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Baggy (Madchester)",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Balearic beat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Balearic trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ballroom",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Baltimore club",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bass house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bass music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bassline",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Berlin School",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Big beat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Big room house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Birmingham sound",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bitpop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Black MIDI",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bleep techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blog house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Boogie",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bouncy techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brazilian bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brazilian phonk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Breakbeat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Breakbeat hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Breakcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Breakstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Broken beat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brooklyn drill",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brostep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-03-26"
+    },
+    {
+      "Genre": "Budots",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Changa tuki",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chicago hard house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chicago house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chillwave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chiptune",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "City pop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-03-01"
+    },
+    {
+      "Genre": "Cloud rap",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cold wave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Complextro",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Coup\u00e9-d\u00e9cal\u00e9",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Crunk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-16"
+    },
+    {
+      "Genre": "Crunkcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-04"
+    },
+    {
+      "Genre": "Cyber metal",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dance-pop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dance-punk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dance-rock",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dancehall pop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dark ambient",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dark electro",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-03"
+    },
+    {
+      "Genre": "Dark psytrance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dark wave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Darkcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Darkstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Darksynth",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Death industrial",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Deconstructed club",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Deep house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Denpa music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Detroit techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Digital hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Disco",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Disco house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Disco polo",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Diva house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dream trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dreampunk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-03-22"
+    },
+    {
+      "Genre": "Drift phonk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Drill",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-08"
+    },
+    {
+      "Genre": "Drill 'n' bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Drone",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Drum and bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Drumfunk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-02"
+    },
+    {
+      "Genre": "Drumstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dub",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dub poetry",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dub techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dubstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dubstyle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-06"
+    },
+    {
+      "Genre": "Dubtronica",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dungeon synth",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dutch house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Early hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electro",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electro hop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electro house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electro swing",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-09"
+    },
+    {
+      "Genre": "Electro-disco",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-25"
+    },
+    {
+      "Genre": "Electro-industrial",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electroacoustic improvisation",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electroacoustic music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electroclash",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electrogrind",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electronic body music (EBM)",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electronic pop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electronic rock",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electronica",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electronicore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electropop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Emo rap",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ethereal wave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ethnic electronica and regional EDM",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Euphoric frenchcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Euphoric hardstyle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Eurobeat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Eurodance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Eurodisco",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Eurohouse",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Eurotrance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Experimental electronic",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Extratone",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "FM synthesis",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Fidget house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Flashcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Florida breaks",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Folktronica",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Footwork",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-03"
+    },
+    {
+      "Genre": "Free tekno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Freestyle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "French house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Frenchcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-03-14"
+    },
+    {
+      "Genre": "Full-on",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funk carioca",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funk fusion genres",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funk melody",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funk ostenta\u00e7\u00e3o",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funkstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funktronica",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funky house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Future bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Future funk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Future garage",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Future house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Future rave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Futurepop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gabber",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Garage house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-01"
+    },
+    {
+      "Genre": "Ghetto house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ghettotech",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Glitch",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Glitch hop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Goa trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gqom",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Grime",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Grindie",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Guaracha (EDM)",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hands up",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Happy hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hard NRG",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hard dance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hard techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hard trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hardbag",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-03-20"
+    },
+    {
+      "Genre": "Hardbass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hardcore breaks",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hardstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hardstyle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-22"
+    },
+    {
+      "Genre": "Hardvapour",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hardwave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Harsh noise",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Harsh noise wall",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hauntology",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hi-NRG",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hip house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hip-hop fusion genres",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hipster hop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-12"
+    },
+    {
+      "Genre": "House music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hyperpop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-07"
+    },
+    {
+      "Genre": "Hypnagogic pop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Illbient",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Indietronica",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Industrial and post-industrial",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Industrial hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Industrial hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Industrial metal",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Industrial rock",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Industrial techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Instrumental hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Intelligent dance music (IDM)",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Intelligent drum and bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-14"
+    },
+    {
+      "Genre": "Isolationism",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Italo dance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Italo disco",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Italo house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "J-core",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jackin house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Japanoise",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazz house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazzstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jerk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-13"
+    },
+    {
+      "Genre": "Jersey club",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Juke house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jump-up",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jumpstyle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jungle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-06"
+    },
+    {
+      "Genre": "Jungle terror",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jungletek",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kawaii future bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kidandali",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kosmische musik",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Krautrock",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kuduro",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kwaito",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Laptronica",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latin house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latin trap",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Lento violento",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Liquid funk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Live electronic (Livetronica)",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Lo-fi house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Lofi hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Lowercase",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mahraganat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mainstream hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mallsoft",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Manila sound",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Martial industrial",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Melbourne bounce",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Melodic house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Merenhouse",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Miami bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Microhouse",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Microsound",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Midtempo bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Minimal psytrance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Minimal techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Minimal wave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Moombahcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Moombahsoul",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Moombahton",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mumble rap",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "M\u00e1kina",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neo soul",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neoclassical dark wave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neoclassical new-age",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neue Deutsche H\u00e4rte",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neue Deutsche Todeskunst",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neue Deutsche Welle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-03-24"
+    },
+    {
+      "Genre": "Neurofunk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New Jersey sound",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New beat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New jack swing",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New rave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New romantic",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New wave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New-age",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nintendocore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nitzhonot",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Noise music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nortec",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nu jazz (Jazztronica)",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nu skool breaks",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nu-disco",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nu-gaze",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Onkyokei",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Outsider house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Philly club",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Phonk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-27"
+    },
+    {
+      "Genre": "Plugg",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Plunderphonics",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-disco",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-dubstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-rock",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Power electronics",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-31"
+    },
+    {
+      "Genre": "Power noise",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive breaks",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive electronic",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive psytrance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Proibid\u00e3o",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psybient",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic breakbeat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psydub",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pumping house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "R&B and soul fusion genres",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rab\u00f2day",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ragga jungle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Raggacore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Raggatek",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rara tech",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rasteirinha",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rawstyle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Reductionism",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Reggaestep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Riddim",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Russ music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-08"
+    },
+    {
+      "Genre": "Sambass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-03-23"
+    },
+    {
+      "Genre": "Sampledelia",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Schaffel",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Scouse house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sequencer music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Shamstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Shangaan electro",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Skweee",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Slap house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Snap music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-21"
+    },
+    {
+      "Genre": "Sophisti-pop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-30"
+    },
+    {
+      "Genre": "Soulful house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Soundscape",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sovietwave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Space disco",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Space music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Space rock",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Spacesynth",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-04-17"
+    },
+    {
+      "Genre": "Speed garage",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Speedcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-11"
+    },
+    {
+      "Genre": "Splittercore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-07"
+    },
+    {
+      "Genre": "Stadium house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Suomisaundi",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Synth-funk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-01-11"
+    },
+    {
+      "Genre": "Synth-metal",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Synth-pop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Synth-punk",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-02-12"
+    },
+    {
+      "Genre": "Synthwave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tech house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tech trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Techstep",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tecnocumbia",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Toytown techno",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trance music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trap",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trap (EDM)",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trapstyle",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tribal guarachero",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tribal house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trip hop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trip rock",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tropical house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trouse",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "UK bass",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": "2026-03-12"
+    },
+    {
+      "Genre": "UK drill",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "UK funky",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "UK garage",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "UK hard house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "UK hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "UK trap",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Uplifting trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Vaporwave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Video game music",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Vocal trance",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Wave",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Witch house",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Wonky",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Wonky pop",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Worldbeat",
+      "TopCategory": "",
+      "ParentCategory": "Electronic",
+      "LastListened": ""
+    },
+    {
+      "Genre": "American folk revival",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Anti-folk",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "British folk revival",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Celtic music",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": "2026-02-04"
+    },
+    {
+      "Genre": "Celtic rock",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": "2026-04-07"
+    },
+    {
+      "Genre": "Chalga",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Corrido",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Creole music",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Filk",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Folk noir",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Folk rock",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Freak folk",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Indie folk",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Industrial folk",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neofolk",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New Weird America",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nueva canci\u00f3n",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive folk",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Protest song",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic folk",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ranchera",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Singer-songwriter",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Skiffle",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sung poetry",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tarantella/Pizzica",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Traditional blues verses",
+      "TopCategory": "",
+      "ParentCategory": "Folk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Boom bap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bounce",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "British hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": "2026-02-03"
+    },
+    {
+      "Genre": "Chap hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chicano rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chopped and screwed",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chopper",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Christian hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Comedy hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Conscious hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Digicore",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dirty rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Drill music",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "East Coast hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Experimental hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Frat rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Freestyle rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "G-funk",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gangsta rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hardcore hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hip-hop soul",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Horrorcore",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": "2026-02-28"
+    },
+    {
+      "Genre": "Hyphy",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazz rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": "2026-03-25"
+    },
+    {
+      "Genre": "Jerkin'",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jewish hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Krushclub",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latin hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mafioso rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Memphis rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nerdcore",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pluggnb",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Political hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pop rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Punk rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rage",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": "2026-02-20"
+    },
+    {
+      "Genre": "Ragga hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rap metal",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rap opera",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rap rock",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rapcore",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": "2026-02-23"
+    },
+    {
+      "Genre": "Religious hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Road rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sigilkore",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Slab music",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Southern hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trap metal",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trap music",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tread rap",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Turntablism",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "West Coast hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Hip-hop",
+      "LastListened": "2026-02-02"
+    },
+    {
+      "Genre": "Acid jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Afro-Cuban jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Alt-jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Avant-garde jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": "2026-03-17"
+    },
+    {
+      "Genre": "Bebop",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": "2026-01-04"
+    },
+    {
+      "Genre": "Big band",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Boogie-woogie",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": "2026-04-08"
+    },
+    {
+      "Genre": "Bossa nova",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brazilian jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "British dance band",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cape jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chamber jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Continental jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cool jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Crossover jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dixieland",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ethno jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "European free jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Free funk",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": "2026-01-10"
+    },
+    {
+      "Genre": "Free improvisation",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Free jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gypsy jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hard bop",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazz blues",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazz fusion",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazz rock",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazz-funk",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazztronica",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kansas City jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latin jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Livetronica",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "M-base",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mainstream jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Modal jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neo-bop jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neo-swing",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nu jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Orchestral jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-bop",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Punk jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": "2026-01-05"
+    },
+    {
+      "Genre": "Samba-jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": "2026-01-06"
+    },
+    {
+      "Genre": "Shibuya-kei",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": "2026-02-25"
+    },
+    {
+      "Genre": "Ska jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Smooth jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Soul jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Straight-ahead jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Stride jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Swing",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Third stream",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trad jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Vocal jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "West Coast jazz",
+      "TopCategory": "",
+      "ParentCategory": "Jazz",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Alternative metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Atmospheric black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Avant-garde black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Avant-garde metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blackened death metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blackened deathcore",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blackened doom",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brutal death metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Celtic metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Christian metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Crossover thrash",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": "2026-02-10"
+    },
+    {
+      "Genre": "Death metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Death-doom",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Deathcore",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Deathgrind",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Depressive suicidal black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Djent",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Doom metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Drone doom",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Drone metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Extreme metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Folk metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funeral doom",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funk metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Glam metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gothic doom",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gothic metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Grindcore",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Groove metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kawaii metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latin metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Math metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mathcore",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Medieval metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Melodic black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Melodic death metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Melodic metalcore",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Metalcore",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "National Socialist black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neoclassical metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": "2026-01-20"
+    },
+    {
+      "Genre": "New wave of American heavy metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New wave of British heavy metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nu metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pagan metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pirate metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pop metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": "2026-02-01"
+    },
+    {
+      "Genre": "Post-black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Power metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive metalcore",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Red and anarchist black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Slam death metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sludge doom",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sludge metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": "2026-01-02"
+    },
+    {
+      "Genre": "Speed metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Stoner-doom",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Symphonic black metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Symphonic metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Technical death metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Thrash metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Unblack metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Viking metal",
+      "TopCategory": "",
+      "ParentCategory": "Metal",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Adult contemporary",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Adult hits",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Alternative pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ambient pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Anime song",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Arabic pop music",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Art pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Austropop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Avant-pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Baroque pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Beach music",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bedroom pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brill building",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Britpop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bubblegum pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "C-pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": "2026-03-27"
+    },
+    {
+      "Genre": "Canci\u00f3n",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cantopop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Canzone",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chamber pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": "2026-03-09"
+    },
+    {
+      "Genre": "Chanson",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Christian pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Classic hits",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Classical crossover",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Contemporary hit radio",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cringe pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dark pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Emo pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Europop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Folk pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "French pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hokkien pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Indian pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": "2026-01-16"
+    },
+    {
+      "Genre": "Indie pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Iranian pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "J-pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jangle pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Jazz pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "K-pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Korean hip-hop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Korean rock",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latin ballad",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": "2026-01-19"
+    },
+    {
+      "Genre": "Latin pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": "2026-02-26"
+    },
+    {
+      "Genre": "La\u00efk\u00f3",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mandopop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mexican pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": "2026-02-16"
+    },
+    {
+      "Genre": "Nederpop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neomelodic music",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neon pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New Romantic",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nordic popular music",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "OPM",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Oldies",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Operatic pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Orchestral pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pinoy pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pop punk",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pop rock",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pop soul",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Power pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": "2026-04-05"
+    },
+    {
+      "Genre": "Progressive pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rebetiko",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rhythmic adult contemporary",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rhythmic contemporary",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rhythmic oldies",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Russian pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Schlager",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Soft rock",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Space age pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sunshine pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Surf pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Swamp pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "T'ong guitar",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Teen pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Traditional pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trot",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Turbo-folk",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Turkish pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Twee pop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Urban adult contemporary",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Urban contemporary music",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Vispop",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Yacht rock",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": "2026-03-13"
+    },
+    {
+      "Genre": "Y\u00e9-y\u00e9",
+      "TopCategory": "",
+      "ParentCategory": "Pop",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Afro-punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Anarcho punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Art punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Avant punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bardcore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Beatdown hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Celtic punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Christian hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Christian punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Crabcore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Crust punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Crustgrind",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cyberpunk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "D-beat",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Easycore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Egg punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Electropunk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Folk punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Garage punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "German punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Glam punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Goregrind",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gothic punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gypsy punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hardcore punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Horror punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Krishnacore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latino punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Melodic hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nazi punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Noisecore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Noisegrind",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Oi!",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pornogrind",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Positive hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-hardcore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Powerviolence",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Punk funk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Punk pathetique",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Punkabilly",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Queercore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Reggae punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Riot grrrl",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Scottish Gaelic punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Screamo",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Ska punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Skate punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Street punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": "2026-01-30"
+    },
+    {
+      "Genre": "Surf punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Synth punk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Taqwacore",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Trallpunk",
+      "TopCategory": "",
+      "ParentCategory": "Punk",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blue-eyed soul",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brown-eyed soul",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Cinematic soul",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Deep funk",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funk",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": "2026-01-28"
+    },
+    {
+      "Genre": "Go-go",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gospel music",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Hip hop soul",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Minneapolis Sound",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Northern soul",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive soul",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic funk",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic soul",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Quiet storm",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": "2026-01-15"
+    },
+    {
+      "Genre": "Soul",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Southern gospel",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Urban contemporary gospel",
+      "TopCategory": "",
+      "ParentCategory": "R&B & soul",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Acid rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": "2026-04-15"
+    },
+    {
+      "Genre": "Active rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Adult album alternative",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Afro rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Album oriented rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Alternative rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "American rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Anatolian rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Arabic rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Arena rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Art rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Avant-prog",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Baggy",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Beat",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blackgaze",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Blog rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Boogie rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Brazilian rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "British Invasion",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "British folk rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "British rock music",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Bubblegrunge",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Canterbury scene",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chicano rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Chinese rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Christian rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Classic alternative",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Classic rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "College rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Comedy rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dark cabaret",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Death 'n' roll",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": "2026-02-22"
+    },
+    {
+      "Genre": "Deathrock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Desert rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dream pop",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Dunedin sound",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Emo",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Experimental rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Fire rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Flamenco rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Freak scene",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Freakbeat",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Funk rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Garage rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": "2026-01-12"
+    },
+    {
+      "Genre": "Geek rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Glam rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Gothic rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Grunge",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": "2026-01-12"
+    },
+    {
+      "Genre": "Hard rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Heartland rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Heavy metal",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Indian rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Indie rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Instrumental rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Iranian rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Japanese rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Kindie rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Landfill indie",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latin alternative",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Latin rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Madchester",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mainstream rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mangue bit",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Math rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Medieval folk rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Midwest emo",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Mod (subculture)",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Modern rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nagoya kei",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Nederbeat",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neo-prog",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Neo-psychedelia",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New prog",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "New wave of classic rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": "2026-03-07"
+    },
+    {
+      "Genre": "New wave of new wave",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "No wave",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Noise pop",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Noise rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Occult rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pagan rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Paisley Underground",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-grunge",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-metal",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-progressive",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Post-punk",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": "2026-03-28"
+    },
+    {
+      "Genre": "Post-punk revival",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Progressive rock (radio format)",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Proto-prog",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Proto-punk",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Psychedelic rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pub rock (Australia)",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Pub rock (United Kingdom)",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Punk rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Raga rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Regg\u00e6 rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rock and roll",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rock en espa\u00f1ol",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rock in Opposition",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rock music in France",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rock music in Mexico",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Rock opera",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sadcore",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Samba rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Shitgaze",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Shoegaze",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Slacker rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Slowcore",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Soft grunge",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Stoner rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Sufi rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Surf rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Swamp rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Tropical rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Turkish rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": "2026-04-19"
+    },
+    {
+      "Genre": "Viking rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": "2026-04-10"
+    },
+    {
+      "Genre": "Visual kei",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Wizard rock",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "World fusion",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    },
+    {
+      "Genre": "Zeuhl",
+      "TopCategory": "",
+      "ParentCategory": "Rock",
+      "LastListened": ""
+    }
+  ],
+  "blacklist": [],
+  "seed": {
+    "Hyperpop": {
+      "summary": "Hyperpop is a maximalist offshoot of pop and electronic music that pushes hooks, vocal processing, distortion, and digital texture to extremes. It emerged from internet-native scenes in the late 2010s and often blends pop, trap, EDM, and experimental production into something intentionally bright, synthetic, and unstable.",
+      "artists": [
+        "SOPHIE",
+        "Charli XCX",
+        "100 gecs",
+        "A. G. Cook"
+      ],
+      "songs": [
+        "Immaterial \u2014 SOPHIE",
+        "Vroom Vroom \u2014 Charli XCX",
+        "money machine \u2014 100 gecs",
+        "Beautiful \u2014 A. G. Cook"
+      ]
+    },
+    "Bebop": {
+      "summary": "Bebop is a jazz subgenre centered on fast tempos, intricate harmony, asymmetrical phrasing, and improvisation that foregrounds virtuosity over danceability. It developed in the 1940s as musicians expanded swing language into a more harmonically adventurous and musician-focused style.",
+      "artists": [
+        "Charlie Parker",
+        "Dizzy Gillespie",
+        "Thelonious Monk",
+        "Bud Powell"
+      ],
+      "songs": [
+        "Ko-Ko \u2014 Charlie Parker",
+        "A Night in Tunisia \u2014 Dizzy Gillespie",
+        "Round Midnight \u2014 Thelonious Monk",
+        "Un Poco Loco \u2014 Bud Powell"
+      ]
+    },
+    "Outlaw country": {
+      "summary": "Outlaw country is a country subgenre associated with a rougher sound, lyrical independence, and resistance to polished Nashville conventions. The style took shape in the 1970s and is often linked to artists who blended honky-tonk, folk, and rock attitudes into a more self-directed form of country music.",
+      "artists": [
+        "Waylon Jennings",
+        "Willie Nelson",
+        "Townes Van Zandt",
+        "Steve Earle"
+      ],
+      "songs": [
+        "Are You Sure Hank Done It This Way \u2014 Waylon Jennings",
+        "Red Headed Stranger \u2014 Willie Nelson",
+        "Pancho and Lefty \u2014 Townes Van Zandt",
+        "Copperhead Road \u2014 Steve Earle"
+      ]
+    }
+  },
+  "meta": {
+    "genre_count": 954,
+    "blacklist_count": 0
+  }
+}
